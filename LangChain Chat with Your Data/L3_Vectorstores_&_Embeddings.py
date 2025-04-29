@@ -12,7 +12,7 @@ _ = load_dotenv(find_dotenv()) # read local .env file
 
 from gen_ai_hub.proxy.langchain.init_models import init_embedding_model
 
-embedding = init_embedding_model('text-embedding-ada-002')
+embedding = init_embedding_model('text-embedding-3-small')
 
 sentence1 = "i like dogs"
 sentence2 = "i like canines"
